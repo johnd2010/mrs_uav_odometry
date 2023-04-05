@@ -55,7 +55,7 @@ offset:
 altitude:
 
   # Do not fuse rangefinder measurements when the UAV is tilted more than this angle
-  excessive_tilt: deg(30)
+  excessive_tilt: deg(0)
 
   # Max value of correction when corrections are being saturated (typically after toggling garmin corrections on)
   max_saturated_correction: 0.001 # [m]
